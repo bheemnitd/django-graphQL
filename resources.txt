@@ -1,0 +1,21 @@
+resources
+
+GraphQL Python Tutorial With Graphene (+ Django Integration)
+
+	https://www.youtube.com/watch?v=-0uxxht4mko&t=24s&ab_channel=TheDumbfounds
+
+Coded Factory Talks - Django Graphene
+
+	https://www.youtube.com/watch?v=MNHc0j8PDnE&ab_channel=Coded
+
+Mutations
+
+	https://docs.graphene-python.org/projects/django/en/latest/mutations/
+
+Root, info
+	
+	https://www.tutorialspoint.com/graphql/graphql_resolver.htm
+
+Error Handling
+
+	https://www.howtographql.com/graphql-python/6-error-handling/
