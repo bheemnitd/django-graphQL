@@ -2,17 +2,17 @@
 
 
 mutation createPost {
-createPost(input: {title: "The china Study.",
-description: "The China Study is a helth related book.",
-author: "Jonathan hui."}) {
-post {
-id
-title
-description
-publishDate
-author
-}
-}
+  createPost(input: {title: "The china Study.",
+    description: "The China Study is a helth related book.",
+      author: "Jonathan hui."}) {
+        post {
+          id
+          title
+          description
+          publishDate
+          author
+    }
+  }
 }
 
 query posts {
