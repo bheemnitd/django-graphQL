@@ -1,6 +1,6 @@
 # django-graphQL
 
-## Using the tech stack above (This is a must), build a simple blog API service. It should expose a GraphQL endpoint to do the folloing things:
+## Build a simple blog API service. It should expose a GraphQL endpoint to do the folloing things:
 
 #### Implement a createPost() mutation which will create a Post (a blogpost object) with attributes {title, description, publish_date, author (just a name as TextField)}
 
