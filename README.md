@@ -1,63 +1,15 @@
 # django-graphQL
 
+### Using the tech stack above (This is a must), build a simple blog API service. It should expose a GraphQL endpoint to do the folloing things:
 
-mutation createPost {
-  createPost(input: {title: "The china Study.",
-    description: "The China Study is a helth related book.",
-      author: "Jonathan hui."}) {
-        post {
-          id
-          title
-          description
-          publishDate
-          author
-    }
-  }
-}
+### Implement a createPost() mutation which will create a Post (a blogpost object) with attributes {title, description, publish_date, author (just a name as TextField)}
 
-query posts {
-posts {
-id
-title
-description
-publishDate
-author
-}
-}
-query post {
-post(id:1) {
-id
-title
-description
-publishDate
-author
-commentSet {
-id
-text
-author
-}
-}
-}
-mutation updatePost {
-updatePost(id:2, input: {title: "College",
-description: "Nalanda University is biggetst University in the world.",
-author: "Bheem"}) {
-post {
-id
-title
-description
-publishDate
-author
-}
-}
-}
-mutation createComment {
-createComment(input: {postId: 1, text: "awesome pic!", author: "sameer"}) {
-comment {
-id
-post {id}
-text
-author
-}
-}
-}
+### Implement a updatePost($id) mutation which will update a Post attributes by $id
+
+### Implement a createComment() mutation which will create a Comment object with attributes {post (the blogpost object), text, author (just the name as a TextField)}
+
+### Implement a deleteComment($id) mutation to delete the given Comment by its ID.
+
+### Implement a posts() query to list all the posts
+
+### Implement a post($id) query to get details of a post and all its comments12
